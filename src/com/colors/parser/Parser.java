@@ -27,6 +27,7 @@ public class Parser {
 			buildEvalTree(mRoot, mEquation);
 			mHeap = new EvalNode[(int)Math.pow(2, heapDepth(mRoot) + 1)];
 			buildEvalHeap(mRoot, 0);
+			System.out.println("Derp");
 		} else {
 			throw new ParserException(ParserException.MISMATCHED_PARENS_ERROR);
 		}
@@ -79,12 +80,12 @@ public class Parser {
 		while (parenDepth > 0 && end < mEquation.length()) {
 			char c = mEquation.charAt(end);
 			switch (c) {
-			case '(':
-				parenDepth++;
-				break;
-			case ')':
-				parenDepth--;
-				break;
+				case '(':
+					parenDepth++;
+					break;
+				case ')':
+					parenDepth--;
+					break;
 			}
 
 			if (parenDepth == 1 && Character.toString(c).matches("[-+/^*]")) {
@@ -117,6 +118,10 @@ public class Parser {
 				maxIndex = i;
 			}
 		}
+		
+		if (_operands.length == 1) {
+			return _operands[0];
+		}		
 
 		String _s = "";
 		for (int i = 0; i < _operators.length; i++) {

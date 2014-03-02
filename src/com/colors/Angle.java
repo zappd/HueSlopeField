@@ -8,7 +8,7 @@ public class Angle {
 	public static float ubound = 1.0f;
 	public static int woffset = 0;
 	public static int hoffset = 0;
-	public static String equation = "x^2+y^2";
+	public static String equation = "(x^2)+(y^2)";
 	
 	public static Parser parser = null;
 	static {
