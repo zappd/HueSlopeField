@@ -1,9 +1,9 @@
-package com.colors.ui;
+package com.zappd.ui;
 
 import javax.swing.event.ChangeEvent;
 import javax.swing.event.ChangeListener;
 
-import com.colors.*;
+import com.zappd.*;
 
 public class SliderListener implements ChangeListener {
 

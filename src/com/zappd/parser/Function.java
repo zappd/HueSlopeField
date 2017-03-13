@@ -1,4 +1,4 @@
-package com.colors.parser;
+package com.zappd.parser;
 
 import java.security.InvalidKeyException;
 import java.util.HashMap;

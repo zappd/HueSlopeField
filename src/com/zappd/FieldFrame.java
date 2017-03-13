@@ -1,4 +1,4 @@
-package com.colors;
+package com.zappd;
 
 import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
@@ -9,7 +9,7 @@ import javax.swing.JFrame;
 import javax.swing.JMenuItem;
 import javax.swing.JPopupMenu;
 
-import com.colors.ui.*;
+import com.zappd.ui.*;
 
 public class FieldFrame extends JFrame {
 	

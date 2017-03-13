@@ -1,9 +1,9 @@
-package com.colors.ui;
+package com.zappd.ui;
 
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
-import com.colors.*;
+import com.zappd.*;
 
 public class PopupListener implements ActionListener {
 	

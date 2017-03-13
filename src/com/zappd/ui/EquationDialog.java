@@ -1,4 +1,4 @@
-package com.colors.ui;
+package com.zappd.ui;
 
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
@@ -8,10 +8,10 @@ import javax.swing.JFrame;
 import javax.swing.JLabel;
 import javax.swing.JTextField;
 
-import com.colors.Angle;
-import com.colors.Driver;
-import com.colors.parser.Parser;
-import com.colors.parser.ParserException;
+import com.zappd.Angle;
+import com.zappd.Driver;
+import com.zappd.parser.Parser;
+import com.zappd.parser.ParserException;
 
 public class EquationDialog extends JFrame {
 

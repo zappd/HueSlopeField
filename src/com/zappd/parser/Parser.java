@@ -1,4 +1,4 @@
-package com.colors.parser;
+package com.zappd.parser;
 
 import java.security.InvalidKeyException;
 import java.util.regex.Pattern;
@@ -27,7 +27,6 @@ public class Parser {
 			buildEvalTree(mRoot, mEquation);
 			mHeap = new EvalNode[(int)Math.pow(2, heapDepth(mRoot) + 1)];
 			buildEvalHeap(mRoot, 0);
-			System.out.println("Derp");
 		} else {
 			throw new ParserException(ParserException.MISMATCHED_PARENS_ERROR);
 		}

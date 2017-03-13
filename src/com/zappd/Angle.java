@@ -1,7 +1,7 @@
-package com.colors;
+package com.zappd;
 
 import java.awt.Color;
-import com.colors.parser.*;
+import com.zappd.parser.*;
 
 public class Angle {	
 	public static float lbound = 0.0f;

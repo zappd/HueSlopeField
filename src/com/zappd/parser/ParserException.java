@@ -1,4 +1,4 @@
-package com.colors.parser;
+package com.zappd.parser;
 
 public class ParserException extends Exception {
 	

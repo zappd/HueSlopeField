@@ -1,4 +1,4 @@
-package com.colors;
+package com.zappd;
 
 import java.awt.*;
 import java.awt.image.BufferedImage;

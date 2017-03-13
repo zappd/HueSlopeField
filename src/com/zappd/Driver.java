@@ -1,7 +1,7 @@
-package com.colors;
+package com.zappd;
 
 import javax.swing.*;
-import com.colors.ui.*;
+import com.zappd.ui.*;
 
 public class Driver {
 	public static FieldFrame 	 FRAME_1 = null;
